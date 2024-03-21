@@ -10,8 +10,8 @@
 • Onscreen number buttons to input numbers into the grid.  
 • Notes Mode: Keep track of possible numbers in cells with the notes mode feature.  
 • Solve button: Reveals Puzzle solution.  
-• Lives System: Lose a life when you make an incorrect entry.
-• Built-in timer tracks elapsed time during gameplay.  
+• Lives System: Lose a life when you make an incorrect entry.  
+• Built-in timer tracks elapsed time during gameplay.
 
 ## License
 
