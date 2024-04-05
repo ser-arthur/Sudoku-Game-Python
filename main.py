@@ -54,8 +54,8 @@ def run(sudoku_ui):
                     row, col = sudoku_ui.highlighted_cell
                     key = event.unicode
 
-                    # Check if entered key is a valid digit and selected cell is empty
-                    if (key.isdigit() and 1 <= int(key) <= 9) and (sudoku_ui.grid[row][col] == 0):
+                    # Check if entered key is a valid digit and selected cell is empty / contains notes
+                    if (key.isdigit() and 1 <= int(key) <= 9) and (sudoku_ui.grid[row][col] == 0 or sudoku_ui.notes_mode):
                         sudoku_ui.handle_num_input(row, col, int(key))
 
                     # Delete entry
